@@ -22,7 +22,7 @@ object Films {
     // println(directorsBornBeforeWithBackCatalogOfSize(directors, 1931, 6))
 
     // println(namesOfFilmsByDirectorScoringAtLeast(nolan, 8.8))
-    // println(namesOfAllFilmsByDirectorScoringAtLeast(List(nolan, mcTiernan), 8.8))
+    // println(namesOfAllFilmsScoringAtLeast(List(nolan, mcTiernan), 8.8))
 
     // println(filmsSortedByImdb(mcTiernan.films))
     // println(filmsByDirectorSortedByImdb(mcTiernan))
