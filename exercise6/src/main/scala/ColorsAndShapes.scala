@@ -1,21 +1,20 @@
-// Write your classes and traits here
-
 object ColorsAndShapes {
+
   def main(args: Array[String]): Unit = {
     println()
 
-    // val yellow = Color(1, 1, 0)
-    // val pink = Color(1, 0, 1)
-    // println(yellow)
-    // println(pink)
+    println("Using a predefined color:")
+    println(Color.yellow)
+    println(Color.goldenrod)
 
-    // val circle = Circle(50, yellow)
-    // val rect = Rect(100, 50, pink)
-    // println(circle)
-    // println(rect.area)
+    println("Creating color from scratch:")
+    println(Color(0.5, 0.75, 0.25))
 
-    // println(Svg.shape(circle))
-    // println(Svg.shape(rect))
+    println("Creating a color using Color.grey():")
+    println(Color.gray(0.333))
+
+    println("Creating colors from other colors:")
+    println(Color.limegreen.darker.darker)
 
     println()
   }
